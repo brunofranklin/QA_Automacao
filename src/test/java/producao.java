@@ -2,7 +2,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-kkkkkk
 
 public class producao {
     ChromeDriver nav;
