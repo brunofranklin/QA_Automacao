@@ -28,10 +28,10 @@ public class staging {
         nav.findElement(By.xpath("//*[@id=\"identifier\"]")).click();
         nav.findElement(By.id("identifier")).click();
         //Login
-        nav.findElement(By.xpath("//*[@id=\"identifier\"]")).sendKeys("timeqa@pulsus.mobi");
+        nav.findElement(By.xpath("//*[@id=\"identifier\"]")).sendKeys("");
         nav.findElement(By.id("password")).click();
         //Password
-        //nav.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("QAbggi123");
+        //nav.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("");
         nav.findElement(By.xpath("//*[@id=\"action\"]")).click();
 
     }
