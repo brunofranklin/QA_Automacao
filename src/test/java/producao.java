@@ -21,9 +21,9 @@ public class producao {
         nav.manage().window().maximize();
         nav.get("https://app.pulsus.mobi");
         nav.findElement(By.id("identifier")).click();
-        nav.findElement(By.id("identifier")).sendKeys(" timeqa@pulsus.mobi");
+        nav.findElement(By.id("identifier")).sendKeys("");
         nav.findElement(By.id("password")).click();
-        nav.findElement(By.id("password")).sendKeys("QAbggi123");
+        nav.findElement(By.id("password")).sendKeys("");
         nav.findElement(By.id("action")).click();
         nav.findElement(By.xpath("//*[@id=\"react-ae-recommended-modal\"]/div/div/div[2]/span")).click();
     }
